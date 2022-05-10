@@ -1,1 +1,1 @@
-# profile-editor
+No starter code is provided. Start from scratch!

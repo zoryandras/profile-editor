@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url("images/pexels-andre-furtado-370717.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#root{
+    width: 100vw;
+    height: 100%;
+    max-height: 1200px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 600px;
+    height: 90%;
+    border-radius: 40px;
+    background: #caf0f850;
+    gap: 5px;
+    box-shadow: 0px 0px 10px 5px #90e0ef;
+    color: #03045E
+
+}
+#form h2 {
+    margin: 20px;
+}
+#form label{
+    font-size: 1.333em;
+}
+
+#form input{
+    font-size: 1.0em;
+    padding: 10px;
+    border: none #caf0f8;
+    border-radius: 10px;
+    text-decoration: wavy;
+}
+
+#form input:focus{
+    transform: translateY(-1px);
+    box-shadow: inset 2px 2px 2px 0px #03045E;
+    border: hidden;
+}
+
+#form button{
+    background-color: #0077b6;
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    color: #caf0f8;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#form button:hover{
+    transform: translateY(-4px);
+    background: #4e96bd;
+}
+
+#form textarea{
+    font-size: 20px;
+    border: none #caf0f8;
+    border-radius: 10px;
+    text-decoration: wavy;
+    width: 316px;
+    padding: 10px;
+}
+
+#form textarea:focus{
+    transform: translateY(-1px);
+    box-shadow: inset 2px 2px 2px 0px #03045E;
+    border: hidden;
+}
+
+.btn :hover{
+    transform: translateY(-4px);
+    background: #4e96bd;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+/* .btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    transform: translateY(-4px);
+    background: #4e96bd;
+}  */
+  
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
